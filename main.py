@@ -40,7 +40,6 @@ def zeitBerechnungsFunktion():
 
 if __name__ == '__main__':
     berechnungsTyp = berechnungsTypFunktion()
-    print(berechnungsTyp)
 
     if berechnungsTyp == "d":
         preis = streckenBerechnungsFunktion()
